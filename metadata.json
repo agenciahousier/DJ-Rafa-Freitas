@@ -1,0 +1,6 @@
+{
+  "name": "DJ Rafa Freitas Hub",
+  "description": "EPK and link-in-bio hub for DJ Rafa Freitas, featuring biography, Sound Sessions Radio Show guest archive, social links, and press kit downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

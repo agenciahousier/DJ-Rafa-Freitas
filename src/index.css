@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-red: #ff003c;
+  --color-brand-red-dark: #b3002a;
+  --color-brand-black: #050505;
+  --color-brand-dark-gray: #121212;
+}
+
+/* Custom styles and scrollbar behaviors */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff003c;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b3002a;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0.98);
+    opacity: 0.4;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 6s ease-in-out infinite;
+}
+
+/* Glow styles */
+.glow-red {
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.4);
+}
+
+.glow-red-lg {
+  box-shadow: 0 0 35px rgba(255, 0, 60, 0.5);
+}
+
+.glow-red-text {
+  text-shadow: 0 0 8px rgba(255, 0, 60, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+  color: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+}
