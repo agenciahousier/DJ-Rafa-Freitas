@@ -10,10 +10,10 @@ import LinksHub from './components/LinksHub';
 import PresskitModal from './components/PresskitModal';
 
 // Static image references from the generated assets
-const coverImg = '/src/assets/images/rafa_freitas_cover_1784298903387.jpg';
-const crowdImg = '/src/assets/images/rafa_freitas_crowd_1784298917842.jpg';
-const sittingImg = '/src/assets/images/rafa_freitas_sitting_1784298932520.jpg';
-const spotlightImg = '/src/assets/images/rafa_freitas_spotlight_1784298949638.jpg';
+const coverImg = '/src/assets/images/rafa_freitas_cover_1784373213866.jpg';
+const crowdImg = '/src/assets/images/rafa_freitas_crowd_1784373226462.jpg';
+const sittingImg = '/src/assets/images/rafa_freitas_sitting_1784373251124.jpg';
+const spotlightImg = '/src/assets/images/rafa_freitas_spotlight_1784373266174.jpg';
 const flyerImg = '/src/assets/images/sound_sessions_flyer_1784298969878.jpg';
 
 export default function App() {
@@ -116,7 +116,7 @@ export default function App() {
                   src={coverImg}
                   alt="DJ Rafa Freitas Portrait"
                   referrerPolicy="no-referrer"
-                  className="w-full h-auto object-cover rounded-2xl grayscale"
+                  className="w-full h-auto object-cover rounded-2xl"
                 />
                 
                 {/* Embedded dynamic HUD brand text overlay */}
