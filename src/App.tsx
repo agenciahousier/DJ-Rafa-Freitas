@@ -10,11 +10,11 @@ import LinksHub from './components/LinksHub';
 import PresskitModal from './components/PresskitModal';
 
 // Static image references from the generated assets
-const coverImg = '/src/assets/images/rafa_freitas_cover_1784298903387.jpg';
-const crowdImg = '/src/assets/images/rafa_freitas_crowd_1784298917842.jpg';
-const sittingImg = '/src/assets/images/rafa_freitas_sitting_1784298932520.jpg';
-const spotlightImg = '/src/assets/images/rafa_freitas_spotlight_1784298949638.jpg';
-const flyerImg = '/src/assets/images/sound_sessions_flyer_1784298969878.jpg';
+import coverImg from './assets/images/rafa_freitas_cover_1784298903387.jpg';
+import crowdImg from './assets/images/rafa_freitas_crowd_1784298917842.jpg';
+import sittingImg from './assets/images/rafa_freitas_sitting_1784298932520.jpg';
+import spotlightImg from './assets/images/rafa_freitas_spotlight_1784298949638.jpg';
+import flyerImg from './assets/images/sound_sessions_flyer_1784298969878.jpg';
 
 export default function App() {
   const [isPresskitOpen, setIsPresskitOpen] = useState(false);
